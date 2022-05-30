@@ -1,0 +1,75 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 2rem;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	background-color: lightblue;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	color: rgb(0, 1, 1);
+}
+
+.toDoContainer {
+	margin: 40px 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	background-color: white;
+	padding: 20px;
+}
+
+.search {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	width: 100%;
+}
+
+form {
+	display: flex;
+}
+
+li {
+	list-style: none;
+	background-color: lightblue;
+	margin-top: 20px;
+	display: flex;
+}
+
+li p {
+	margin: 0;
+	padding: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	text-transform: capitalize;
+}
+
+.btn-delete {
+	border: none;
+	background-color: lightblue;
+	color: black;
+
+	outline: none;
+
+	width: 5%;
+	font-size: 1.2em;
+}
+
+.btn-delete:hover {
+	cursor: pointer;
+	background-color: lightseagreen;
+}
+
+.btn-add {
+	padding: 5px 15px;
+	border: none;
+	color: white;
+	font-family: fantasy;
+	background-color: teal;
+	font-size: 1.4rem;
+	outline: none;
+}
