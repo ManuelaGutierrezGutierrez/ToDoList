@@ -1,24 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Poppins&family=Roboto&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+  }
+
 body {
 	margin: 0;
 	padding: 0;
-	font-size: 2rem;
-	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-	background-color: lightblue;
+	font-family: "Poppins", sans-serif;
+	background-color: lightblue
 }
 
 h1 {
 	text-align: center;
 	text-transform: uppercase;
 	color: rgb(0, 1, 1);
+	size: 2rem;
+	margin-bottom: 20px;
 }
 
 .toDoContainer {
 	margin: 40px 0px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	width: 40%;
 	background-color: white;
 	padding: 20px;
+	border-radius: 20px;
+	
+}
+
+.list-container {
+	margin-top: 30px;
 }
 
 .search {
@@ -26,17 +41,21 @@ h1 {
 	margin-right: auto;
 	padding: 20px;
 	width: 100%;
+	font-size: 1.25rem;
 }
 
 form {
 	display: flex;
 }
 
+
+
 li {
 	list-style: none;
 	background-color: lightblue;
 	margin-top: 20px;
 	display: flex;
+	max-width: 100%;
 }
 
 li p {
@@ -46,6 +65,7 @@ li p {
 	display: flex;
 	justify-content: center;
 	text-transform: capitalize;
+	font-size: 1.25rem;
 }
 
 .btn-delete {
@@ -55,7 +75,7 @@ li p {
 
 	outline: none;
 
-	width: 5%;
+	width: 10%;
 	font-size: 1.2em;
 }
 
